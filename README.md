@@ -90,4 +90,4 @@ A seguir, apresentamos um guia conceitual e generalizado dos passos para configu
         * **Ação:** Remover 1 instância.
     * É recomendável configurar um **período de "cooldown"** para evitar que o Auto Scaling adicione ou remova instâncias de forma muito agressiva em resposta a flutuações temporárias de tráfego.
 
-Com esses componentes configurados, a sua aplicação estará pronta para escalar de forma automática e resiliente, gerenciando o tráfego de forma eficiente e otimizando os custos operacionais.
+Com esses componentes configurados, consegue implmentar as configurações necessárias para seu correto funcionamento na plataforma da AWS.
