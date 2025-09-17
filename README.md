@@ -11,12 +11,15 @@ O objetivo deste projeto é demonstrar como o Auto Scaling e o Load Balancing tr
 ## 1. O que é cada componente?
 
 ### Auto Scaling
+![Texto alternativo](autoscallinggroup.jpg)
+
 
 O Auto Scaling (ou escalonamento automático) é um serviço que ajusta automaticamente a quantidade de recursos computacionais (como servidores virtuais) em uma aplicação, de acordo com a demanda em tempo real. O objetivo é manter a performance da aplicação de forma consistente e previsível, com o menor custo possível.
 
 - **Como funciona?** Ele monitora métricas da aplicação, como a utilização da CPU, o número de requisições por minuto, ou a latência de rede. Com base em regras pré-definidas, ele adiciona mais recursos quando a demanda aumenta (Scaling Up/Out) e remove recursos quando a demanda diminui (Scaling Down/In).
 
 ### Load Balancer
+![Texto alternativo](balanceadordecarga.jpg)
 
 O Load Balancer (ou balanceador de carga) atua como um "controlador de tráfego" para os servidores da sua aplicação. Ele distribui as requisições de entrada entre múltiplos servidores, evitando que um único servidor fique sobrecarregado.
 
